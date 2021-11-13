@@ -5,9 +5,9 @@ const axios = require('axios');
 const { errorMessage, infoMessage } = require('../helpers');
 const YTV_DESC = "Youtube Video Downloader "
 const YT_NEED = "*need word!.*"
-const DWLOAD_VID = "*🎭Downloading Your Video...*"
-const YTV_UP = "*🚀Uploading Your Video...*"
-const NO_RESULT = "*🌀can't Find Anything...*"
+const DWLOAD_VID = "*🏃Downloading Your Video...*"
+const YTV_UP = "*🎅Uploading Your Video...*"
+const NO_RESULT = "*🧑can't Find Anything...*"
 
 
 //උස්සන්නද ආවෙ බේසිකයෝ.බොහොම අමාරුවෙන් හැදුවෙ.උස්සන එකා අවජාතකයෙක් කියල හිතාගන්න පුලුවන් පොන්න හැත්ත.හුකන පොන්නයෝ
