@@ -42,7 +42,7 @@ MyPnky.addCommand({pattern: 'tagall ?(.*)', fromMe: true, dontAddCommandList: tr
             mesaj = '';
             grup['participants'].map(
                 async (uye) => {
-                    mesaj += '\n 👤 @' + uye.id.split('@')[0] + 'ㅤ';
+                    mesaj += '\n 🔥 @' + uye.id.split('@')[0] + 'ㅤ';
                     jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                 }
             );
@@ -55,7 +55,7 @@ MyPnky.addCommand({pattern: 'tagall ?(.*)', fromMe: true, dontAddCommandList: tr
             mesaj = '';
             grup['participants'].map(
                 async (uye) => {
-                    mesaj += '\n 👤 @' + uye.id.split('@')[0] + 'ㅤ';
+                    mesaj += '\n 🔥 @' + uye.id.split('@')[0] + 'ㅤ';
                     jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                 }
             );
@@ -103,7 +103,7 @@ else if (Config.WORKTYPE == 'public') {
                 mesaj = '';
                 grup['participants'].map(
                     async (uye) => {
-                        mesaj += '\n 👤 @' + uye.id.split('@')[0] + 'ㅤ';
+                        mesaj += '\n 🤙 @' + uye.id.split('@')[0] + 'ㅤ';
                         jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                     }
                 );
@@ -116,7 +116,7 @@ else if (Config.WORKTYPE == 'public') {
                 mesaj = '';
                 grup['participants'].map(
                     async (uye) => {
-                        mesaj += '\n 👤 @' + uye.id.split('@')[0] + 'ㅤ';
+                        mesaj += '\n 🤙 @' + uye.id.split('@')[0] + 'ㅤ';
                         jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                     }
                 );
@@ -182,7 +182,7 @@ async function checkImAdmin(message, user = message.client.user.jid) {
             mesaj = '';
             grup['participants'].map(
                 async (uye) => {
-                    mesaj += '\n 👤 @' + uye.id.split('@')[0] + 'ㅤ';
+                    mesaj += '\n 🤙 @' + uye.id.split('@')[0] + 'ㅤ';
                     jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
                 }
             );
